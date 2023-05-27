@@ -3,7 +3,7 @@
 # Build the project
 echo "Building the project..."
 python3.9 -m pip install -r requirements.txt
-yum install sqlite-devel
+yum install libsqlite3-dev
 ./configure --enable-loadable-sqlite-extensions && make && sudo make install
 echo "Make Migration..."
 python3.9 manage.py makemigrations --noinput
