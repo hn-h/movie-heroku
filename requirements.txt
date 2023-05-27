@@ -5,3 +5,5 @@ pandas==1.2.4
 requests==2.25.1
 sqlparse==0.4.1
 urllib3==1.26.5
+dj-database-url==2.0.0
+PyMySQL==1.0.3
