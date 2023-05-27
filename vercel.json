@@ -1,8 +1,8 @@
-}
+{
     "version": 2,
     "builds": [
       {
-        "src": "movieRecommendationProject/wsgi.py",
+        "src": "your_project_name/wsgi.py",
         "use": "@vercel/python",
         "config": {
           "maxLambdaSize": "15mb",
@@ -24,7 +24,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "movieRecommendationProject/wsgi.py"
+        "dest": "your_project_name/wsgi.py"
       }
     ]
   }
